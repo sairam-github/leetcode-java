@@ -1,9 +1,3 @@
 {
-  "java.project.sourcePaths": [
-    "Pascal's-Triangle - 118",
-    "NumberOfIslands - 200",
-    "ContainsDuplicate - 217",
-    "BuySellStock - 121",
-    "TwoSum2 - 167"
-  ]
+  "java.project.sourcePaths": ["LengthOfLastWord - 58"]
 }
