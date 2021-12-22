@@ -1,35 +1,31 @@
-/*
-
 public class Main {
     public static void main(String[] args) {
         // String str = "   fly me   to   the moon  ";
-        String str = "Hellow World";
+        String str = "luffy is still joyboy";
+        // String str = "Hellow World";
         System.out.println(lengthOfLastWord(str));
     }
 
     public static int lengthOfLastWord(String s) {
-        int index = s.length() - 1;
-        boolean trigger = false;
-        int triggerIndex = 0;
 
-        while (index != 0) {
-            if (s.charAt(index) == ' ' && trigger) {
+        if (s == null || s.length() == 0) {
+            return 0;
+        }
+
+        boolean trigger = false;
+        int length = 0;
+        for (int i = s.length(); i > 0; i--) {
+
+            if (s.charAt(i - 1) == ' ') {
                 if (trigger) {
                     break;
                 }
-
-                triggerIndex++;
-            }
-
-            if (s.charAt(index) != ' ') {
+            } else {
                 trigger = true;
+                length++;
             }
-
-            index--;
         }
 
-        return s.length() - triggerIndex - index + 1;
+        return length;
     }
 }
-
-*/
