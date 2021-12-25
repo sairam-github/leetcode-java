@@ -2,6 +2,6 @@
 
 #Incomplete problems:
 
-# LengthOfLastWord - 58
+# 394 - DecodeString
 
-# DecodeString - 394
+# 278 - FirstBadVersion

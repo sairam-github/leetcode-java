@@ -1,5 +1,3 @@
-/*
-
 import java.util.HashSet;
 
 public class Main {
@@ -24,5 +22,3 @@ public class Main {
         return false;
     }
 }
-
-*/

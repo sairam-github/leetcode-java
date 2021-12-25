@@ -1,5 +1,3 @@
-/*
-
 public class Main {
     public static void main(String[] args) {
         
@@ -25,5 +23,3 @@ public class Main {
         return new int[] {current + 1, next + 1};
     }
 }
-
-*/

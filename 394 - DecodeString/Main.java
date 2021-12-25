@@ -1,5 +1,3 @@
-/*
-
 import java.util.Stack;
 
 public class Main {
@@ -73,5 +71,3 @@ public class Main {
         return resultSB.toString();
     }
 }
-
-*/
